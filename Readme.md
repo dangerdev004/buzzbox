@@ -1,8 +1,8 @@
 # Buzzbox
 
-An example application that demonstrates how to send SMS or MMS messages with an ESP8266 connected to a friendly WiFi network, as well as hosts a basic server to receive and respond to SMS and MMS messages.
+An example application that demonstrates how to send SMS or MMS messages with an ESP8266 connected to a friendly WiFi network, when IR,PIR & Ultrasonic sensors are triggered all at once
 
-Please read [Twilio's sending messages article](https://www.twilio.com/docs/guides/send-sms-and-mms-messages-esp8266-cpp) and our [our receiving and replying to messages article](https://www.twilio.com/docs/guides/receive-and-reply-sms-and-mms-messages-esp8266-c-and-ngrok) for more information.
+Please read [Twilio's sending messages article](https://www.twilio.com/docs/guides/send-sms-and-mms-messages-esp8266-cpp) and Twilio's [our receiving and replying to messages article](https://www.twilio.com/docs/guides/receive-and-reply-sms-and-mms-messages-esp8266-c-and-ngrok) for more information.
 
 Once this application is loaded to the ESP8266 it will:
 
