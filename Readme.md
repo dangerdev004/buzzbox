@@ -2,7 +2,7 @@
 
 An example application that demonstrates how to send SMS or MMS messages with an ESP8266 connected to a friendly WiFi network, when IR,PIR & Ultrasonic sensors are triggered all at once
 
-Please read [Twilio's sending messages article](https://www.twilio.com/docs/guides/send-sms-and-mms-messages-esp8266-cpp) and Twilio's [our receiving and replying to messages article](https://www.twilio.com/docs/guides/receive-and-reply-sms-and-mms-messages-esp8266-c-and-ngrok) for more information.
+Please read [Twilio's sending messages article](https://www.twilio.com/docs/guides/send-sms-and-mms-messages-esp8266-cpp) and [Twilio's receiving and replying to messages article](https://www.twilio.com/docs/guides/receive-and-reply-sms-and-mms-messages-esp8266-c-and-ngrok) for more information.
 
 Once this application is loaded to the ESP8266 it will:
 
@@ -32,7 +32,7 @@ You'll then want to edit the following variables in twilio_esp8266_arduino_examp
 Will run automatically once uploaded to the board.  If you do not get a message, enable serial debugging.
 
 Either serial debugging or perhaps a peek at your router screen will reveal the assigned IP address of the ESP8266.  <that ip>:8000/message is the webhook of interest; use ngrok or another means to espose it to Twilio.  Note that you'll need to provide a https endpoint!
-    
+
 ### Fingerprint failure
 
 The most common reason the sketch fails (assumign you correctly copied credentials) is the `api.twilio.com` certificate changes. See [this section](https://www.twilio.com/docs/sms/tutorials/how-to-send-sms-messages-esp8266-cpp#dealing-with-message-failure) of the Twilio Docs to update the fingerprint in your code.
